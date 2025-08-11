@@ -1,0 +1,35 @@
+.titulo_principal{
+    text-align: center;
+}
+
+
+
+.receitas_geral{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.receita_bolo{
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.receita_pizza{
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+}
+.receita_pudim{
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+}

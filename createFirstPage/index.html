@@ -5,31 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas</title>
     <link rel="shortcut icon" href="aux_folder/html.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <img src="aux_folder/img_receita.jpeg" style="width: 100%; display: block; height: 500px;"  
->
-    <h1>Minhas Receitas</h1>
+    <!-- <img src="aux_folder/img_receita.jpeg" style="width: 100%; display: block; height: 500px;"  > -->
+    <h1 class="titulo_principal">Minhas Receitas</h1>
 
-    <ul>
-        <li>Receita de bolo</li>
-        <li>Receita de Pizza</li>
-        <ol>
-            <li>Misture o fermento, o sal e o açúcar em um pouco de água morna, até que o fermento esteja completamente dissolvido. </li>
-            
-            <li>Em seguida, adicione metade da medida de farinha de trigo, o óleo e mexa até criar uma consistência pastosa.</li>
-            
-            <li>Acrescente o restante da farinha de trigo, a pinga, a água morna e misture bem.</li>
-            
-            <li>Assim que a massa desgrudar das mãos, deixe crescer por 30 minutos.</li>
-            
-            <li>Abra os discos, fure a massa com um garfo e pincele o molho.</li>
-            
-            <li>Leve ao forno médio (180° C), preaquecido, por 15 minutos.</li>
+    <div class="receitas_geral">
+        <div class="receita_bolo">
+            <h1>Bolo</h1>
+            <a href="bolo.html" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">
+                Receita de Bolo
+            </a>    
 
-            </ol>
-        <li>Receita de Pudim</li>
-    </ul>
+
+        </div>
+
+        <div class="receita_pizza">
+            <h1>Pizza</h1>
+            <a href="pizza.html" style="display: inline-block; padding: 10px 20px; background-color: #0e5c91; color: white; text-decoration: none; border-radius: 5px;">
+                Receita de Bolo
+            </a>  
+        </div>
+        <div class="receita_pudim">
+            <h1>Pudim</h1>
+            <a href="pudim.html" style="display: inline-block; padding: 10px 20px; background-color: #830606; color: white; text-decoration: none; border-radius: 5px;">
+                Receita de Bolo
+            </a> 
+        </div>
+    </div>
+    
 </body>
 </html>
